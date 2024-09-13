@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parveen Malik - Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(56, 51, 51);
+            color: bisque;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 94);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: azure;
+        }
+
+        nav ul li a:hover {
+            color: antiquewhite;
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 104px 0;
+            padding: 0 20px;
+            /* Add padding to create space on both sides */
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 30px 0;
+            width: 50%;
+            margin-right: 20px;
+            /* Add space between text and image */
+        }
+        .leftSection .bottons{
+            padding: 50px 0;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background:#1e2167 ;
+            color: aliceblue;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            margin-left: 20px;
+            /* Add space between image and text */
+        }
+
+        .rightSection img {
+            max-width: 60%;
+            height: auto;
+        }
+
+        .purple {
+            color: rgb(115, 24, 206);
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .firstSection {
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+            margin-bottom: 20px;
+        }
+
+        .secondSection .box {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 56px 0;
+        }
+
+        .secondSection .vertical {
+            display: flex;
+            align-items: center;
+            background-color: rgb(13, 13, 56);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .secondSection .vertical img {
+            width: 50px;
+            margin-right: 20px;
+        }
+
+        .vertical-title {
+            font-size: 1.5rem;
+            color: bisque;
+        }
+
+        .vertical-discription {
+            font-size: 1rem;
+            color: gray;
+        }
+
+        .footer {
+            background-color: purple;
+           
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Parveen Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="C:\Users\User\Desktop\bootstrap-website\index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Parveen Malik</span>
+                <div> and I am a passionate</div>
+                <span id="element"></span>
+            <div class="buttons">
+                <botton class="btn">Download Resume</botton>
+                <botton class="btn">Visit Github</botton>
+            </div>
+            </div>
+            <div class="rightSection">
+                <img src="c:\Users\User\Downloads\Muslim Girl Dp.jpg" alt="Profile Image">
+            </div>
+        </section>
+        <section class="secondSection">
+            <h1>Work Experiences</h1>
+            <div class="box">
+                <!-- HTML Developer -->
+                <div class="vertical">
+                    <img src="c:\Users\User\Downloads\pngwing.com.png" alt="HTML Logo">
+                    <div>
+                        <div class="vertical-title">HTML Developer </div>
+                        <div class="vertical-discription">Proficient in HTML, capable of creating well-structured web
+                            pages with clean, semantic code.</div>
+                    </div>
+                </div>
+
+                <!-- CSS Developer -->
+                <div class="vertical">
+                    <img src="c:\Users\User\Downloads\logo-2582747_1280.png" alt="CSS Logo">
+                    <div>
+                        <div class="vertical-title">CSS Developer </div>
+                        <div class="vertical-discription">Expertise in creating responsive designs using CSS for various
+                            devices and platforms.</div>
+                    </div>
+                </div>
+
+                <!-- TypeScript Developer -->
+                <div class="vertical">
+                    <img src="c:\Users\User\Downloads\typescript.png" alt="TypeScript Logo">
+                    <div>
+                        <div class="vertical-title">TypeScript Developer </div>
+                        <div class="vertical-discription">Skilled in TypeScript, writing strongly typed code and
+                            improving code maintainability and scalability.</div>
+                    </div>
+                </div>
+
+                <!-- Fourth Box (Optional - Can be any other experience) -->
+                <div class="vertical">
+                    <img src="c:\Users\User\Downloads\next-js (2).svg" alt="Other Experience Logo">
+                    <div>
+                        <div class="vertical-title">Next.js</div>
+                        <div class="vertical-discription">Experienced in building server-side rendered and static websites with Next.js, optimizing performance, SEO, and enhancing user experience.</div>
+                    .</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Parveen Malik s portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contect us</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Face Book</li>
+                    <li>Linkedln</li>
+                    <li>Github</li>
+                    <li>instagram</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footer-right">
+           &copy; 2024 www.Parveen Malik.com | All right reserverd
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Learn Next.js.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
